@@ -1,0 +1,38 @@
+{
+  "name": "@rexag.zhang/eslint-config",
+  "version": "1.0.0",
+  "description": "rexag's ESLint Config",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "config",
+    "preset",
+    "rexag"
+  ],
+  "author": "rexag (https://github.com/Rexag/)",
+  "license": "ISC",
+  "homepage": "https://github.com/Rexag/eslint-config#readme",
+  "bugs": {
+    "url": "https://github.com/Rexag/eslint-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rexag/eslint-config.git"
+  },
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "eslint": ">=8.0.0"
+  },
+  "dependencies": {
+    "@rexag.zhang/eslint-config-prettier": "workspace:*",
+    "@rexag.zhang/eslint-config-vue": "workspace:*"
+  },
+  "devDependencies": {
+    "eslint": "^8.27.0"
+  }
+}

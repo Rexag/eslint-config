@@ -1,0 +1,36 @@
+{
+  "name": "@rexag.zhang/eslint-config-prettier",
+  "version": "1.0.0",
+  "description": "rexag's Prettier ESLint Config",
+  "main": "index.js",
+  "keywords": [],
+  "author": "rexag (https://github.com/Rexag/)",
+  "license": "ISC",
+  "homepage": "https://github.com/Rexag/eslint-config#readme",
+  "bugs": {
+    "url": "https://github.com/Rexag/eslint-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rexag/eslint-config.git"
+  },
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-define-config": "^1.12.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-yml": "^1.2.0",
+    "prettier": "^2.7.1"
+  },
+  "devDependencies": {
+    "eslint": "8.27.0"
+  }
+}

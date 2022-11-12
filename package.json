@@ -1,0 +1,17 @@
+{
+  "name": "@rexag.zhang/eslint-config-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "license": "ISC",
+  "author": "rexag.zhang (https://github.com/Rexag/)",
+  "scripts": {
+    "lint": "eslint . --ext .js,.ts,.json,.json5,.vue,.md --fix",
+    "release": "bumpp package.json packages/*/package.json && pnpm publish -r"
+  },
+  "devDependencies": {
+    "@rexag.zhang/eslint-config": "workspace:*",
+    "bumpp": "^8.2.1",
+    "eslint": "^8.27.0",
+    "typescript": "^4.8.4"
+  }
+}
