@@ -1,6 +1,6 @@
 {
   "name": "@rexag.zhang/eslint-config-basic",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "rexag's JavaScript ESLint Config",
   "main": "index.js",
   "keywords": [],
